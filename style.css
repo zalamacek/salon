@@ -6,11 +6,11 @@
     margin: 0 auto;
 }
 
-#offer-panels {
-    margin: 0 auto;
-    width: 100%;
+.appointment {
+    display: inline-block;
 }
 
-#offer-panels > div {
+footer img {
+    margin: 0 auto;
     display: inline-block;
 }
