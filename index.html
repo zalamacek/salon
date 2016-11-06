@@ -72,79 +72,172 @@
   </a>
 </div>
 
-<!-- Panel x 3 -->
-<h1>Kaj nudimo</h1>
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
+<!-- Thumbnails x 3 -->
+<h1 class="text-center">Kaj nudimo</h1>
+<div class="container">
+<div class="row">
+  <div class="col-sm-6 col-md-4 col-lg-4">
+    <div class="thumbnail">
+     <div class="caption">
+        <h3>Thumbnail label</h3>
+      </div>
+      <img src="http://placehold.it/1000x300" alt="...">
+    </div>
   </div>
-  <div class="panel-body">
-    Panel content
-  </div>
+   
+   <div class="col-sm-6 col-md-4 col-lg-4">
+    <div class="thumbnail">
+     <div class="caption">
+        <h3>Thumbnail label</h3>
+      </div>
+      <img src="http://placehold.it/1000x300" alt="...">
+    </div>
+</div>
+   
+   <div class="col-sm-6 col-md-4 col-lg-4">
+    <div class="thumbnail">
+     <div class="caption">
+        <h3>Thumbnail label</h3>
+      </div>
+      <img src="http://placehold.it/1000x300" alt="...">
+    </div>
+</div>
+</div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
-  </div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
-  </div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
 
 <!-- Contact form -->
-<h1>Naroči se</h1>
+<h1 class="text-center">Naroči se</h1>
+<div class="container">
+<div class="row">
+<div class="col-sm-2 col-md-6 col-lg-6">
 <form class="form-horizontal">
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input type="text" class="form-control" id="usd" placeholder="Ime in priimek">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input type="text" class="form-control" id="phone" placeholder="Tel. številka">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="input" placeholder="Termin">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="input" placeholder="Ostalo (želje glede pričeske itd.)">
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <div class="checkbox">
         <label>
-          <input type="checkbox"> Remember me
+          <input type="checkbox"> Strinjam se, da je Mirko najboljši frizer.
         </label>
       </div>
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
+      <button type="submit" class="btn btn-default">Pošlji</button>
     </div>
   </div>
 </form>
+</div>
 
 <!-- Table - Urnik -->
-<table class="table table-bordered">
+<div class="col-sm-2 col-md-6 col-lg-6">
+ <table class="table table-bordered">
   <tr>
-    <th>Month</th>
-    <th>Savings</th>
+    <th>Dan</th>
+    <th>Delovne ure</th>
   </tr>
   <tr>
-    <td>January</td>
-    <td>$100</td>
+    <td>ponedeljek</td>
+    <td>8:00-16:00</td>
   </tr>
+  <tr>
+    <td>torek</td>
+    <td>10:00-18:00</td>
+  </tr>
+  <tr>
+    <td>sreda</td>
+    <td>8:00-16:00</td>
+  </tr>
+  <tr>
+    <td>četrtek</td>
+    <td>8:00-16:00</td>
+  </tr>
+  <tr>
+    <td>petek</td>
+    <td>12:00-20:00</td>
+  </tr>
+  <tr>
+    <td>sobota</td>
+    <td>8:00-16:00</td>
+  </tr>
+  <tr>
+    <td>nedelja</td>
+    <td>8:00-12:00</td>
+  </tr> 
 </table>
+<p>* Ob praznikih velja nedeljski urnik.</p>
+</div>
+</div>
+</div>
 
-<h1>FAQ (pogosta vprašanja)</h1>
+<!-- FAQ -->
+<h1 class="text-center">FAQ (pogosta vprašanja)</h1>
+<div class="container">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Kakšen je salon in ekipa?</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Ali sprejemate hišne ljubljenčke?</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Imate kakšne nagrade s tekmovanj?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>
+</div>
 
 <div id="footer">
        <div id="FLeft">Kontakt</div>
