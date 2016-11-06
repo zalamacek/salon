@@ -1,9 +1,55 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+    color: #011627;
+}
+
+h1 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    color: #2ec4b6;
+    font-size: 35px;
+    font-weight: 550;
+}
+
+h2 {
+    color: #011627;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.caption > span {
+    line-height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    color: #ff3366;
+}
+
+.navbar-default {
+    background-color: #2ec4b6;
+    margin-bottom: 0px;
+}
+
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+    color: #ff3366;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ff3366;
 }
 
 .carousel {
-    background-color: gainsboro;
+    background-color: #f6f7f8;
 }
 
 .carousel-control {
@@ -14,12 +60,52 @@ body {
     margin: 0 auto;
 }
 
-.appointment {
-    display: inline-block;
+.thumbnail {
+    border: 2px solid;
+    border-color: #f6f7f8;
+    background-color: #f6f7f8;
 }
 
+#appointment {
+    background-color: #f6f7f8;
+    width: 100%;
+}
+
+#comment {
+    height: 100px;
+}
+
+.table.table-bordered {
+    border: 1px solid;
+    border-color: #ddd;
+}
+
+.table.table-bordered th {
+    background-color: #f6f7f8;
+}
+
+.table.table-bordered td {
+    background-color: white;
+}
+
+.checkbox {
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+}
+
+.btn-red:hover {
+    background-color: #ff3366;
+    color: white;
+}
+
+
 footer {
-    background-color: lightgray;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #f6f7f8;
 }
 
 footer img {
@@ -27,7 +113,12 @@ footer img {
     display: block;
 }
 
-hr {
-    height: 5px;
-    background-color: gray;
+h5 {
+    font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+    padding: 0px;
+    font-size: 12px;
 }
