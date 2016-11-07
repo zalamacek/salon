@@ -130,10 +130,20 @@ h5 {
     font-size: 12px;
 }
 
+.footer ul a {
+    color: #011627;
+}
+
+.footer .pull-right {
+    z-index: 10;
+    position: relative;
+}
+
 #logo {
     font-size: 80px;
     line-height: 131px;
     display: block;
+    margin: 0 auto;
     width: 100%;
     text-align: center;
     color: #ff3366;
