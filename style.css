@@ -48,6 +48,10 @@ h2 {
     color: #ff3366;
 }
 
+.collapse nav-collapse {
+    height: auto;
+}
+
 .carousel {
     background-color: #f6f7f8;
 }
